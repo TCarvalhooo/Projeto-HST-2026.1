@@ -10,8 +10,11 @@ function Home() {
         <h3>Nome do funcionário: João</h3>
         <p>CPF: 123.456.789-00</p>
         <p>Cargo: Desenvolvedor</p>
-
-        <button onClick={() => navigate("/detalhes")}>Ver Detalhes</button>
+        <div className="botoes">
+          <button onClick={() => navigate("/detalhes")}>Ver Detalhes</button>
+          <button>Editar</button>
+          <button>Excluir</button>
+        </div>
       </div>
     </div>
   );
